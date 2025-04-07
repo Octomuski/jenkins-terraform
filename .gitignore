@@ -1,0 +1,33 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Credentials and sensitive data
+*.pem
+*.key
+*.p12
+*.json # If you store service account keys here (not recommended)
+
+# Crash logs
+crash.log
+
+# Temporary files
+*~
+\#*#
+.*.swp
+.*.swo
+.DS_Store # macOS
+*.idea/ # IntelliJ IDEA
+*.vscode/ # VS Code
+*.terraform.lock.hcl
+
+# Environment variables (if used)
+.env
+
+# Terraform plugins (if stored locally)
+.terraform.d/*
+
+# Local terraform execution plan files
+*.tfplan
